@@ -13,6 +13,7 @@ public class ClientRunner {
             ScoreCalculator scoreTotal = new ScoreCalculator(inFile.nextLine());
             System.out.println(scoreTotal.calculateTotals());
         }
+        inFile.close();
 
         /*
         EXPECTED OUTPUT:
