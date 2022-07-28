@@ -13,10 +13,6 @@ public class BinaryTime {
         setBinaryTime(input);
     }
 
-    public void setBinaryTime(String[][] binaryTime) {
-        this.binaryTime = binaryTime;
-    }
-
     public void setBinaryTime(String input) {
         String[] data = input.split(" ");
         for (int i = 0; i < data.length; i++) {
